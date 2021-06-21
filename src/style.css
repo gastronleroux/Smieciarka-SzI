@@ -1,9 +1,12 @@
 body{
+	font-family: 'Dosis', sans-serif;
 	margin: 0 auto;
 	height: 100%;
 	display: flex;
 	padding: 20px;
-	font-family: 'Dosis', sans-serif;
+	-moz-box-sizing: border-box; 
+    	-webkit-box-sizing: border-box; 
+     	box-sizing: border-box; 
 }
 input:hover{
 	cursor: pointer;
