@@ -434,7 +434,7 @@ function startDrive(){
 		background.drawMap();
 		targetDD(cityMap,0);
 	}else{
-		alert("Brak ustalonej kolejności");
+		alert("Choose an algorithm first.");
 	}
 }
 
@@ -725,7 +725,7 @@ let intervalID;
 
 function estimateClosest(){
 	if(geneticCount!=0){
-		alert("Trwa symulacja");
+		alert("Simulation is still ongoing. Click 'Stop' to end the simulation.");
 		return;
 	}
 	clearScreen();
@@ -785,7 +785,7 @@ function estimateClosest(){
 
 function estimateGenetic(){
 	if(geneticCount!=0){
-		alert("Trwa symulacja");
+		alert("Simulation is still ongoing. Click 'Stop' to end the simulation.");
 		return;
 	}
 	clearScreen();
